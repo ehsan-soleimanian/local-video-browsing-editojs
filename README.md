@@ -25,8 +25,20 @@ const editor = new EditorJS({
 
 ```
 
+Backend response format should be like this :
+```
+{
+	"videos": [
+		{
+			"name": "Rec 0028.mp4",
+			"url": "http://video-sample-url.mp4",
+			"date": "2024-07-31 12:26:13"
+		},
+			]
+}
+```
 Features
-Embed local video files
+Embed local video files ( at the moment Mp4 only)
 Preview video directly in Editor.js
 Supports metadata preloading
 

@@ -1,6 +1,6 @@
 {
   "name": "editorjs-localvideo",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "An Editor.js block tool for embedding and previewing local videos.",
   "main": "src/index.js",
   "scripts": {},
