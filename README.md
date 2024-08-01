@@ -17,9 +17,20 @@ const editor = new EditorJS({
     localVideo: {
       class: LocalVideo,
       config: {
-        // Custom configuration options
+        fetchUrl: 'https://your-api-endpoint.com/getVideosUploaded'
       }
     }
   }
 });
+
 ```
+
+Features
+Embed local video files
+Preview video directly in Editor.js
+Supports metadata preloading
+
+Configuration
+fetchUrl
+Type: string
+Description: The URL endpoint to fetch the list of available videos.
