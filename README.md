@@ -37,12 +37,12 @@ Backend response format should be like this :
 			]
 }
 ```
-Features
+# Features
 Embed local video files ( at the moment Mp4 only)
 Preview video directly in Editor.js
 Supports metadata preloading
 
-Configuration
+# Configuration
 fetchUrl
 Type: string
 Description: The URL endpoint to fetch the list of available videos.
